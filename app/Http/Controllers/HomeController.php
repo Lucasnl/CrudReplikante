@@ -37,7 +37,7 @@ class HomeController extends Controller
 
             'name' => $request->name,
             'email' => $request->email,
-            'password' =>  Hash::make($request->newPassword),
+            'password' =>  Hash::make($request->password),
             'status' => '1',
         );
 
@@ -77,7 +77,7 @@ class HomeController extends Controller
         $dados = array(
             'name'    =>  $request->name,
             'email'    =>  $request->email,
-            'password'    => $request->password,
+            'password'    => Hash::make($request->password),
             'status'    => $request->status,
 
 
