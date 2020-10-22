@@ -15,6 +15,7 @@
   DB_USERNAME=root
   DB_PASSWORD=
  - Instale o Xampp ou qualquer outro serviço  para rodar o Modulo de Banco de Dados Mysql
+ - Use o comando "php artisan migrate" para gerar as tabelas no banco ou caso queira o banco de dados esta na root do projeto
  - Por fim use o comando "php artisan serve" para rodar a aplicação localmente provavelmente no endereço "http://127.0.0.1:8000"
  - Caso Utilize o Xampp para rodar a aplicação ao inves do "php artisan serve" , clone esse github dentro da pasta htdocs e rode os modulos Apache e Mysql
 
