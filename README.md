@@ -3,7 +3,7 @@
 
 * Use algum terminal , o do visual studio code por exemplo é ótimo
  - Use o comando "git clone https://github.com/Lucasnl/CrudReplikante.git" 
- - Use o Comando "composer update" 
+ - Use o Comando "composer update"  dentro da pasta do projeto
  - Gere uma chave com "php artisan key:generate"
  - Renomeie o arquivo .env.example apenas para .env
  - Faça a configuração do banco de dados que preferir , no caso usei assim
@@ -14,7 +14,9 @@
   DB_DATABASE=replikante
   DB_USERNAME=root
   DB_PASSWORD=
-
+ - Instale o Xampp ou qualquer outro serviço  para rodar o Modulo de Banco de Dados Mysql
+ - Por fim use o comando "php artisan serve" para rodar a aplicação localmente provavelmente no endereço "http://127.0.0.1:8000"
+ - Caso Utilize o Xampp para rodar a aplicação ao inves do "php artisan serve" , clone esse github dentro da pasta htdocs e rode os modulos Apache e Mysql
 
 ## Sobre o Crud
 * Crud simples de cadastro de usuários com softDelete
