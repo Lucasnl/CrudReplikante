@@ -1,6 +1,9 @@
 
 ## Sobre o Crud
 
+* Para testar use git clone https://github.com/Lucasnl/CrudReplikante.git 
+ * Use o Comando "composer update" 
+ * e por fim gere uma chave com "php artisan key:generate"
 
 * Crud simples de cadastro de usuários com softDelete
 
